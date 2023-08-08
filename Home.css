@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(https://st2.depositphotos.com/3213441/12022/v/450/depositphotos_120226496-stock-illustration-pokemon-go-pokeball-seamless-texture.jpg);
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.navbar{
+    text-align: left;
+    width:95.6%;
+    height:40px;
+    padding:10px;
+    margin:13px;
+    padding-left: 20px;
+    background: rgb(73, 135, 179);
+    display:flex;
+    justify-content: left;
+    box-shadow: 0 5px 10px 1px;
+    border-radius: 30px;
+}
+
+.navbar img{
+    height:100%;
+}
+
+.navbar img:hover{
+    transform:rotate(360deg);
+    transition:.5s;
+}
+
+.nav{
+    background:black;
+    color:aliceblue;
+    height:70%;
+    position:relative;
+    top:10%;
+    border-radius: 10px;
+    margin:2px;
+}
+
+.nav:hover{
+    background: grey;
+    transition: .5s;
+}
+
+#container{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:20px;
+}
+
+.card{
+    width: 250px;
+    height: 400px;  
+    background: rgb(255, 255, 255);
+    box-shadow: 0 5px 10px;
+    position:relative;
+    position:0;
+    margin:20px;
+    border-radius: 17px;
+    overflow: hidden;
+}
+
+
+.imagebox{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.imagebox img{
+    display: block;
+    width: 90%;
+    margin: 10px auto 0;
+}
+
+.pspecs{
+    position:absolute;
+    width:100%;
+    bottom:-145px;
+    padding: 10px;
+    background:rgb(255, 140, 0);
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition:.5s;
+}
+
+.pspecs:hover{
+    bottom:0;
+}
+
+
+.pspecs span{
+    margin:10px;
+    padding:10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+    color:white;
+}
+
+
+.pspecs .name{
+    font-weight: bolder;
+    padding:10px;
+    color:white;
+}
+
+ul li{
+    font-size:20px;
+    font-weight: normal;
+    color:white;
+    list-style: none;
+    display:flex;
+    justify-content: left;
+}
+
+footer{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
